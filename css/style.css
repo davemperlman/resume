@@ -1,0 +1,54 @@
+body {
+  margin: 0 auto;
+  font-size: .9em; }
+
+header {
+  width: 100%;
+  max-width: 1000px;
+  overflow: hidden; }
+  header h1 {
+    padding-left: 5px; }
+  header ul {
+    float: right; }
+  header li {
+    display: inline-block; }
+
+.container {
+  width: 1000px;
+  margin: 30px auto;
+  line-height: 1.8em; }
+
+.resume-block-objective {
+  width: 100%;
+  margin: 0 auto; }
+  .resume-block-objective h2 {
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: 20px 0; }
+
+.resume-block-experience, .resume-block-education, .resume-block-skills, .resume-block-references {
+  margin-top: 40px;
+  font-size: .9em;
+  width: 45%; }
+  .resume-block-experience p, .resume-block-education p, .resume-block-skills p, .resume-block-references p {
+    font-style: italic;
+    font-size: .8em; }
+  .resume-block-experience h2, .resume-block-education h2, .resume-block-skills h2, .resume-block-references h2 {
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 1.4em; }
+  .resume-block-experience h3, .resume-block-education h3, .resume-block-skills h3, .resume-block-references h3 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1em; }
+  .resume-block-experience ul, .resume-block-education ul, .resume-block-skills ul, .resume-block-references ul {
+    margin-left: 20px;
+    list-style: square; }
+
+.resume-block-experience {
+  float: left; }
+
+.resume-block-education, .resume-block-skills, .resume-block-references {
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */
